@@ -1,0 +1,49 @@
+path:hover {
+	fill-opacity: .5;
+}
+
+div.tooltip {
+  font-size: 10px;
+  position: absolute;
+  padding: 8px;
+  line-height: 1;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+
+div.tooltip li.dem {
+	color: #257ce8;
+}
+
+div.tooltip li.rep {
+	color: #f44336;
+}
+
+text.abbr {
+  font-size: 8px;
+	font-weight: bold;
+	text-anchor: middle;
+	pointer-events: none;
+
+}
+
+text.timeline {
+  font-size: 10px;
+  pointer-events: none;
+}
+
+h2.title {
+  margin: 30px;
+}
+
+circle:hover {
+  fill-opacity: .5;
+}
+
+#current-year {
+  color: rgb(233, 29, 14);
+}
