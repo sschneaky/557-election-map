@@ -67,7 +67,7 @@ let legend = svg.append("g")
       .enter().append("text")
           .text(function(d, i) { 
             let per = d < 0 ? Math.abs(d): d;
-            return `${per} %`;
+            return `+${per} %`;
           })
           .attr("y", function(d, i ) { return i*35 + 25; })
           .attr("x", 10)
