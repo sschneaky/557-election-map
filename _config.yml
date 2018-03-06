@@ -1,0 +1,9 @@
+title: ss
+description: 
+  d3
+baseurl: ""
+url: "http://sschneaky.github.io" 
+github_username:  sschneaky
+
+# Build settings
+markdown: kramdown
