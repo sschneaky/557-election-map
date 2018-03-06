@@ -1,8 +1,8 @@
-title: ss
+title: Electoral Map
 description: 
-  d3
+  Electoral Map Visualization made with d3v4
 baseurl: ""
-url: "https://sschneaky.github.io/557-election-map/electoral_map.html" 
+url: "https://sschneaky.github.io" 
 github_username:  sschneaky
 
 # Build settings
