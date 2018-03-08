@@ -112,7 +112,7 @@ d3.csv("data/yearwise-winner.csv")
               .attr("value", function(d) {return d.year})
               .text(function(d){return d.year})
               .on('click', function(d){
-                  getMap(d.year, true);
+                  getMap(d.year);
                   let curr_year = d3.select("#current-year")
                   curr_year
                     .style('color', function () {
@@ -183,7 +183,7 @@ function getMap(year){
 }
 
 
-function generateMap(rows, update){
+function generateMap(rows){
 
     svg.selectAll('path').remove()
     svg.selectAll('.abbr').remove()
